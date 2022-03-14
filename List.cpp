@@ -1,4 +1,4 @@
-
+//first comment
 #include "StdAfx.h"
 #include <iostream>
 #include "List.h"
@@ -16,6 +16,7 @@ List::~List(void)
 bool List::IsEmpty () { return size==0;}
 bool List::IsFull () {return (size == MaxSize); }
 
+//function to add lists
 void List::Insert (DataType e)
 {
  if (!(IsFull()))
@@ -33,7 +34,7 @@ void Swap (DataType& x, DataType& y)
   x = y;
   y =Temp;
 }                                  
-
+//function to delete from list
 void List::Delete (DataType e)
 { 
  int index = 0;    

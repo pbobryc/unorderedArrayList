@@ -1,10 +1,10 @@
 // ListApplication.cpp : Defines the entry point for the console application.
 //
-
+//second comment
 #include "stdafx.h"
 #include "list.h"
 #include <iostream>
-
+// int main function
 int _tmain(int argc, _TCHAR* argv[])
 {
 List L;
